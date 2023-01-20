@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.div_principal{
+    background-color: #17162E;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.div_espacamento_pai{
+    margin: 0rem 10rem;
+}
+.generico_fontfamily{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+}
+.input_procurar{
+    padding: 1rem;
+    background-color: #8A8A8A;
+    color: black;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    width: 33%;
+    border-color: transparent;
+}
+.input_procurar_submit{
+    padding: 1rem;
+    background-color: #8A8A8A;
+    border-color: transparent;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -2px;
+}
+.input_procurar_submit::before{
+    content: '\213C';
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.card_color{
+    background-color: #1D1C3B!important;
+    display: flex;
+    flex-direction: inherit;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-color: transparent;
+    border-radius: 3px;
+    box-shadow: 32.8387px 24.5482px 79px rgba(0, 0, 0, 0.15), 23.8851px 17.855px 53.2479px rgba(0, 0, 0, 0.121406), 16.6246px 12.4276px 34.4391px rgba(0, 0, 0, 0.10125), 10.9035px 8.15079px 21.3701px rgba(0, 0, 0, 0.0867188), 6.56775px 4.90965px 12.8375px rgba(0, 0, 0, 0.075), 3.46346px 2.58907px 7.6377px rgba(0, 0, 0, 0.0632813), 1.4367px 1.07399px 4.56719px rgba(0, 0, 0, 0.04875), 0.333519px 0.249318px 2.42246px rgba(0, 0, 0, 0.0285938);
+    color: white;
+}
+.img_card{
+    background-image: url('../img/Vingadores.jpg');
+    width: 186px!important;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
