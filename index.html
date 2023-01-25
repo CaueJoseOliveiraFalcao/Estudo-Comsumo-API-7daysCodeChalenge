@@ -14,10 +14,9 @@
         <div class="div_espacamento_pai">
             <h1 class="generico_fontfamily text-center pt-5">Filmes Populares</h1>
         </div>
-        <form class="d-flex justify-content-center form_procurar text-center mt-3">
-            <input class="input_procurar" placeholder="Digite Um Filme Para Pesquisar" type="text">
-            <input class="fa fa-search input_procurar_submit" type="submit" value="">
-            <p class="pos">B</p>
+        <form  class="d-flex justify-content-center form_procurar text-center mt-3">
+            <input class="input_procurar"  placeholder="Digite Um Filme Para Pesquisar" type="text">
+            <input class="fa fa-search input_procurar_submit" onclick="getInput()"   type="submit" value="x">
         </form>
         <div class="area_de_cards">
 
@@ -26,4 +25,5 @@
 </body>
 <script src="./app/CriacaoDeElemento.js"></script>
 <script src="./app/Api.js"></script>
+<script src="./app/PreventDefault.js"></script>
 </html>
