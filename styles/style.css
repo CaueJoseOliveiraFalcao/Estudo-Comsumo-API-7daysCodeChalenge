@@ -57,8 +57,8 @@ body{
     flex-direction: inherit;
 }
 .img_card{
-    width: 200px!important;
-    height: 200px;
+    width: 310px!important;
+    height: 180px;
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,4 +66,11 @@ body{
 }
 .card_area_de_if{
     width: 900px;
+}
+.curtir_fav{
+    width: 250px;
+}
+.button_rate{
+    background-color: transparent;
+    border-color: transparent;
 }

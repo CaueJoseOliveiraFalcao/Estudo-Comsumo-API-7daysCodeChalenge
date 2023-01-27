@@ -20,7 +20,7 @@ async function getMoviesFromInput(Input){
 
 async function ShowPopularMovies(){
 
-    const url = `https://api.themoviedb.org/3/movie/popular${key}&language=en-US&page=1`
+    const url = `https://api.themoviedb.org/3/movie/popular${key}&language=pt-BR&page=1`
     const response = await fetch(url)
     const jsonResponse = await response.json()
     RenderizarFilmes(jsonResponse.results)
