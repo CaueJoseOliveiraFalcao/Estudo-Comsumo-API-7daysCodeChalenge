@@ -5,6 +5,7 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+
 .div_principal{
     background-color: #17162E;
     width: 100vw;
@@ -73,4 +74,12 @@ body{
 .button_rate{
     background-color: transparent;
     border-color: transparent;
+}
+.img_class{
+    width: 30px;
+    margin: 0 0.5rem;
+}
+.vote_rate{
+    margin: 0 0.3rem;
+    padding: 0;
 }

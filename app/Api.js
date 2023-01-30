@@ -1,6 +1,12 @@
 const inputSearch = document.querySelector('.input_procurar')
 const key = '?api_key=2fa38ec709fb23b7b35bacc88a82e18a';
 
+inputSearch.addEventListener('keyup' , (event) =>{
+    if(event.keyCode == 13 ){
+        getInput()
+    }
+})
+
 function getInput(){
     InputValue = inputSearch.value
     var InputValueWhioutSpace = InputValue.replace(/\s/g, '');
